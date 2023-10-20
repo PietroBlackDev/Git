@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/icon.svg">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Git</title>
+</head>
+<body>
+    <header>
+        <figure>
+        <img src="images/manual_do_git.svg" alt="Logotipo do nosso grupinho">
+        </figure>
+        <nav>
+            <ul>
+                <li><a href="./index.html">Git</a></li>
+                <li><a href="./comandos.html">Comandos</a></li>
+                <li><a href="./instalação.html">Instalação</a></li>
+                <li><a href="./plataforma.html">Plataforma</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <article>
+            <h1 class="tchau">Primeira pergunta</h1>
+            <section id="git">
+            <h2 class="titleblock">O que é Git?</h2>
+            <p>Criado por Linus Torvalds (o mesmo criador do Linux) em 2005, o Git é o sistema de controle de versão mais usado no mundo, sendo rápido e efetivo para variados tipos de projetos na vida profissional, além de ser completamente distribuído. É um Sistema de Controle de Versão Distribuído, ou seja, ao invés de um único local com o histórico completo de uma versão, cada cópia do trabalho também possui um repositório que contém um histórico de todas as alterações. Diferente de outros VCS, o Git trata como um fluxo do estado, por meio do comando commit, ele “tira uma foto” do repositório e cria um link para ele.</p>
+            <p>As operações do Git são realizadas, em sua maioria, em sistemas locais, tornando muito melhor trabalhar com os arquivos mesmo na falta de conexão com a rede. Ele possui integridade até as suas bases, passando por verificações, em resumo, o usuário fica bem informado sobre o processo. O Git possui três estados fundamentais: committed, em que os dados estão armazenados de forma segura no banco de dados; modified, com o arquivo modificado, mas sem o comando commit ter sido dado; e staged, para marcar um arquivo para o próximo commit.
+            </p>
+            </section>
+            <footer class="referencias">
+                <h4>Referências bibliográficas</h4>
+                <ul>
+                <li><a href="https://www.atlassian.com/br/git/tutorials/what-is-git">https://www.atlassian.com/br/git/tutorials/what-is-git</a></li>
+                <li><a href="https://git-scm.com/book/pt-br/v2/Come%C3%A7ando-Uma-Breve-Hist%C3%B3ria-do-Git">https://git-scm.com/book/pt-br/v2/Come%C3%A7ando-Uma-Breve-Hist%C3%B3ria-do-Git</a></li>
+                <li><a href="https://git-scm.com/book/pt-br/v2/Come%C3%A7ando-O-B%C3%A1sico-do-Git">https://git-scm.com/book/pt-br/v2/Come%C3%A7ando-O-B%C3%A1sico-do-Git</a></li>
+                </ul>
+            </footer>
+        </article>
+        <hr>
+
+        <section id="brancheversao">
+            <h1 class="tchau">Segunda e terceira pergunta</h1>
+        <article>
+            <h3>O que é controle de versão?</h3>
+            <p>Controle de versão é uma prática que se resume na alteração e gerenciamento do código, mantendo versões anteriores de um projeto ou qualquer tipo de arquivo. Logo, caso ocorra um erro e o usuário perca o arquivo atualizado, ele pode recuperá-lo em uma versão anterior. Da mesma forma, pode comparar as mudanças ao longo do tempo e verificar quem está mexendo.
+            </p>
+
+            <p>O Controle de Versão pode ter sistemas locais, que armazenam as alterações no arquivo em um banco de dados simples, com controle de revisão; sistemas centralizados, em que um servidor central monitora alteração de usuários em computadores diferentes - embora, se sofrer um problema, ele afeta o andamento em todas as máquinas; ou sistemas distribuídos (Git), em que os clientes podem duplicar o repositório completo e até restaurá-lo caso o original seja apagado. É como um backup.</p>
+            <footer class="referencias">
+                <h4>Referências bibliográficas</h4>
+                <ul>
+                <li><a href="https://www.atlassian.com/br/git/tutorials/what-is-git">https://www.atlassian.com/br/git/tutorials/what-is-git</a></li>
+                <li><a href="https://git-scm.com/book/pt-br/v2/Come%C3%A7ando-Uma-Breve-Hist%C3%B3ria-do-Git">https://git-scm.com/book/pt-br/v2/Come%C3%A7ando-Uma-Breve-Hist%C3%B3ria-do-Git</a></li>
+                <li><a href="https://git-scm.com/book/pt-br/v2/Come%C3%A7ando-O-B%C3%A1sico-do-Git">https://git-scm.com/book/pt-br/v2/Come%C3%A7ando-O-B%C3%A1sico-do-Git</a></li>
+                </ul>
+            </footer>
+        </article>
+
+        <hr>
+
+        <article>
+            <h3>O que são branches?</h3>
+            <p>Branches são nada mais do que ramificações existentes em qualquer sistema de Controle de Versão, divergindo do código principal sem alterá-lo. Embora seja um processo trabalhoso para outros sistemas, o Git é desenvolvido para os fluxos de trabalho mais ramificados e fluídos, tornando a criação de branches em algo muito mais leve. O branche no Git é basicamente criar um ponteiro para um determinado commit que foi criado, podendo alternar entre diferentes branches.</p>
+            <footer class="referencias">
+                <h4>Referências bibliográficas</h4>
+                <ul>
+                <li><a href="https://git-scm.com/book/pt-br/v2/Branches-no-Git-Branches-em-poucas-palavras">https://git-scm.com/book/pt-br/v2/Branches-no-Git-Branches-em-poucas-palavras</a></li>
+                </ul>
+            </footer>
+        </article>
+        </section>
+        <hr>
+
+        <article id="grupofacul">
+            <h3>Qual a importância do Git para um grupo de faculdade?</h3>
+            <p>Um grupo de faculdade pode usar o Git para garantir que nenhuma parte de um projeto seja perdido, pois, com o Git, ao invés de um único local com o histórico completo de uma versão, cada cópia do trabalho também possui um repositório que contém um histórico de todas as alterações. Dessa forma, é possível recuperar versões anteriores. Além de também servir para otimizar tempo, já que não seria mais preciso que as pessoas se encontrassem para mexer no código em um mesmo computador, porque com o Git é possível codificar de locais diferentes um mesmo projeto em tempo real.
+            </p>
+        </article>
+    </main>
+    <footer class="rodape">
+        <section class="conteudo">
+            <h4 class="tchau">Mapa e imagem</h4>
+            <section>
+            <h4>Mapa do site</h4>
+                    <ul>
+                        <li><a href="index.html">Git</a></li>
+                        <li><a href="comandos.html">Comandos</a></li>
+                        <li><a href="instalação.html">Instalação</a></li>
+                        <li><a href="./plataforma.html">Plataforma</a></li>
+                    </ul>
+            </section>
+            <figure>
+                <img src="images/imgrodape.png" alt="">
+            </figure>
+        </section>
+        <section class="integrantes">
+            <h4 class="tchau">Integrantes do grupo</h4>
+            <p class="nomes"><strong>Nome:</strong> Emanuele Cristina da Silva</p>
+            <p> <strong>R.A.:</strong> 2650832313017</p>
+        
+            <p class="nomes"><strong>Nome:</strong> Henrique Silva Ribeiro</p>
+            <p>R.A.: 2650832313014</p>
+        
+            <p class="nomes"><strong>Nome:</strong> Igor Vinicius Silveira Feijó</p>
+            <p><strong>R.A.:</strong>  2650832313019</p>
+
+            <p class="nomes"><strong>Nome:</strong> Pietro Ricardo Black Fracalanza Muzy</p>
+            <p><strong>R.A.:</strong> 2650832313027</p>
+
+        </section>
+    </footer>
+</body>
+</html>

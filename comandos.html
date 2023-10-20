@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/icon.svg">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <figure>
+            <img src="images/manual_do_git.svg" alt="Logotipo do nosso grupinho">
+        </figure>
+        <nav>
+            <ul>
+                <li><a href="./index.html">Git</a></li>
+                <li><a href="./comandos.html">Comandos</a></li>
+                <li><a href="./instalação.html">Instalação</a></li>
+                <li><a href="./plataforma.html">Plataforma</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="men">
+        <article class="arte">
+            <h1 class="tchau">h1 - primeira pergunta</h1>
+            <section>
+                <h2 class="titleblock">Como Configurar o Git?</h2>
+                <p>
+                    A configuração do usuário é feita pelo git config, que vê e atribui variáveis de controle e
+                    configuração
+                    para todos os aspectos do Git, valendo uma vez por todas. Ou seja, quando você determina as
+                    configurações, elas vão continuar as mesmas após atualizações, sem necessidade de reescrevê-las.</p>
+
+                <p> O git config pode ser acessado por:</p>
+                <ul>
+                    <li> /etc/gitconfig, valendo para todos os usuários e repositórios; </li>
+                    <li> ~/.gitconfig para o seu usuário; </li>
+                    <li> pelo comando .git/config em um repositório qualquer. </li>
+                </ul>
+                <p>Por ele, você pode configurar seu nome de usuário e o seu email. Também pode escolher um editor de
+                    texto para abrir uma mensagem no Git, mas no Windows, essa opção já vem durante a instalação.</p>
+                <footer class="referencias">
+                    <h4>Referências bibliográficas</h4>
+                    <ul>
+                        <li><a
+                                href="https://docs.github.com/pt/get-started/quickstart/set-up-git">https://docs.github.com/pt</a>
+                        </li>
+                        <li><a
+                                href="https://git-scm.com/book/pt-br/v2/Come%C3%A7ando-Configura%C3%A7%C3%A3o-Inicial-do-Git">https://git-scm.com/book/pt-br/v2/Come%C3%A7ando-Configura%C3%A7%C3%A3o-Inicial-do-Git</a>
+                        </li>
+                    </ul>
+                </footer> 
+            </section>
+<hr>
+            <section class="tudodofundo">
+                <h2 class="tchau">h2 - elementos do meio</h2>
+                <section class="pull">
+                    <h2 class="tchau"> h2 - Gitpull</h2>
+                    <h2 class="titleblock">O que é Gitpull?</h2>
+                    <p>
+                        Git pull é um comando útil para quem trabalha no desenvolvimento de projetos em equipe e precisa estar sempre com a última versão do arquivo. É um atalho que permite verificar os repositórios remotos (git fetch) e gerar um arquivo final atualizado localmente (git merge).
+                    </p>
+                    <p>
+                        Git pull é um comando no qual tem a função de buscar e baixar conteúdos de repositórios remotos
+                        e fazer a atualização ao repositório local para que os conteúdos de ambas fiquem iguais.
+                    </p>
+                    <p>
+                        Como dito, o git pull é uma combinação de dois comandos, git fetch seguido por git merge.
+                    </p>
+                    <p>
+                        No primeiro estágio, é executado o git fetch, que baixa o conteúdo do repositório remoto necessário.
+                    </p>
+                    <p>
+                        Em seguida, o comando git merge combina várias sequências de commits em uma única ramificação.
+                    </p>
+                        <footer class="referencias">
+                            <h4>Referências bibliográficas</h4>
+                            <ul>
+                                <li><a
+                                        href="https://www.freecodecamp.org/portuguese/news/git-pull-explicado/">https://www.freecodecamp.org/portuguese/news/git-pull-explicado/</a>
+                                </li>
+                            </ul>
+                        </footer>
+
+                </section>
+
+                    <section>
+                    <h2 class="tchau"> h2 - mensagem errada commit</h2>
+                    <h2 class="titleblock">Como arrumar uma mensagem errada em um Commit?</h2>
+                    <p>No caso de mensagem do commit mais recente que tenha erros ou foi escrita imprecisamente, é possível
+                        alterar através do comando “git commit --amend”.</p>
+                    <p>Se o commit ainda não foi enviado ao github através do push online, também é possível alterar a
+                        mensagem pelo comando “git commit --amend”.</p>
+                    <ol>
+                        <li>Navegue até o repositório em que o commit que você quer alterar está por meio da linha de
+                            comando;</li>
+                        <li>Digite “git commit --amend” e aperte Enter; </li>
+                        <li>No editor de texto corrija a mensagem e salve.</li>
+                    </ol>
+                    <footer class="referencias">
+                        <h4>Referências bibliográficas</h4>
+                        <ul>
+                            <li><a
+                                    href="https://docs.github.com/pt/pull-requests/committing-changes-to-your-project/creating-and-editing-commits/changing-a-commit-message">https://docs.github.com/pt/pull-requests/</a>
+                            </li>
+                        </ul>
+                    </footer>
+                    </section>
+            </section>
+        </article>
+<hr>
+        <aside class="comandos">
+            <h2 class="tchau"> h2 - comandos do Git</h2>
+            <h2 class="titleblock">Principais Comandos do Git</h2>
+            <p>Git help – Pede ajuda sobre determinados comandos.</p>
+            <p>Git config – Configura suas informações de usuário e preferências </p>
+            <p>Git init – Cria repositórios.</p>
+            <p>Git status – Verifica estado de repositórios e arquivos. </p>
+            <p>Git clone – Clonar um repositório já existente por meio de um link.</p>
+            <p>Git add – Adiciona diretórios e/ou arquivos.</p>
+            <p>Git commit – Armazena o conteúdo atual num commit e mostra uma mensagem com as mudanças.</p>
+            <p>Git rm – Remove diretórios e/ou arquivos</p>
+            <p>Git mv – Renomeia e move arquivos.</p>
+            <p>Git branch – Cria um novo branch. </p>
+            <p>Git checkout – Ajuda a mudar de branch. </p>
+            <p>Git remote – Exibe informações de um repositório remoto. </p>
+            <p>Git push – Transfere as informações do repositório local para um remoto. </p>
+            <p>Git pull – Incorpora as atualizações de um repositório remoto no branch em que o usuário está. </p>
+            <p>Git log – Mostra o histórico de commits criados. </p>
+
+            <footer class="referencias">
+                <h4>Referências bibliográficas</h4>
+                <ul>
+                    <li><a href="https://gist.github.com/leocomelli/2545add34e4fec21ec16">https://gist.github.com/</a>
+                    </li>
+                    <li><a href="https://comandosgit.github.io/">https://comandosgit.github.io/</a></li>
+                </ul>
+            </footer>
+        </aside>
+    </main>
+    <footer class="rodape">
+        <section class="conteudo">
+            <h4 class="tchau">Mapa e imagem</h4>
+            <section>
+            <h4>Mapa do site</h4>
+                    <ul>
+                        <li><a href="index.html">Git</a></li>
+                        <li><a href="comandos.html">Comandos</a></li>
+                        <li><a href="instalação.html">Instalação</a></li>
+                        <li><a href="./plataforma.html">Plataforma</a></li>
+                    </ul>
+            </section>
+            <figure>
+                <img src="images/imgrodape.png" alt="">
+            </figure>
+        </section>
+        <section class="integrantes">
+            <h4 class="tchau">Integrantes do grupo</h4>
+            <p class="nomes"><strong>Nome:</strong> Emanuele Cristina da Silva</p>
+            <p> <strong>R.A.:</strong> 2650832313017</p>
+        
+            <p class="nomes"><strong>Nome:</strong> Henrique Silva Ribeiro</p>
+            <p>R.A.: 2650832313014</p>
+        
+            <p class="nomes"><strong>Nome:</strong> Igor Vinicius Silveira Feijó</p>
+            <p><strong>R.A.:</strong>  2650832313019</p>
+
+            <p class="nomes"><strong>Nome:</strong> Pietro Ricardo Black Fracalanza Muzy</p>
+            <p><strong>R.A.:</strong> 2650832313027</p>
+
+        </section>
+    </footer>
+</body>
+
+</html>

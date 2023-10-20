@@ -1,0 +1,313 @@
+@charset "UTF-8";
+
+body{
+    width: 980px;
+    margin: auto;
+    background-color: #f9f4f5;
+    font-family: 'Alata', sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    background-color: #2cacc9;
+}
+
+nav{
+    margin: auto;
+}
+
+nav ul li a{
+   text-decoration: none;
+   color: #313638;
+   text-transform: uppercase;
+   font-weight: bold;
+}
+
+a:hover{
+    color: #ee562f;
+    text-decoration: underline;
+}
+
+nav ul{
+    display: flex;
+    width: 500px;
+    justify-content: space-around;
+    padding: 0px;
+}
+
+nav ul li{
+    list-style-type: none;
+    text-align: center;
+}
+
+main{
+    margin: 20px 10px;
+}
+
+/*fim das definições de header*/
+
+/*inicio definições bibliografia*/
+.referencias{
+    padding: 10px 20px;
+}
+
+.referencias ul li a{
+    font-size: 0.8em;
+    color: #2cacc9;
+    text-decoration: none;
+}
+
+.referencias ul li a:hover{
+    color: #ee562f;
+}
+
+.referencias li{
+    list-style: decimal;
+    color: #ee562f;
+}
+/*fim definições bibliografia*/
+
+/*inicio definições footer*/
+.rodape{
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.rodape ul{
+    display: flex;
+    height: 100px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.rodape li{
+    color: #313638;
+}
+
+.rodape a{
+    text-decoration: none;
+    color: #313638;
+}
+
+.rodape a:hover{
+    color: #ee562f;
+    text-decoration: underline;
+}
+
+.rodape .conteudo section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px 0px 20px 40px;
+    width: 200px;
+}
+
+.rodape h4{
+    margin: 0px;
+}
+
+.conteudo{
+    display: flex;
+    justify-content: space-between;
+    background-color: #2cacc9;
+    width: 100%;
+}
+
+.integrantes{
+    columns: 2;
+    text-align: left;
+    height: 90px;
+    color: #f9f4f5;
+    background-color: #ee562f;
+    padding:  20px 40px;
+    margin: 10px 0px;
+}
+
+.integrantes p{
+    margin: 0px;
+    font-size: 0.8em;
+}
+
+.integrantes .nomes{
+    margin-top: 5px;
+}
+
+.tchau{
+    display: none;
+}
+
+/*fim definições para footer*/
+
+article{
+    padding: 20px;
+}
+
+h2{
+    color: #ee562f;
+    font-size: 1.8em;
+}
+
+h3{
+    color: #5296a5;
+    font-size: 1.3em;
+}
+
+
+/*inicio flexbox página GIT*/
+
+#git{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#git p{
+    width: 450px;
+}
+
+#brancheversao{
+    display: flex;
+}
+
+#grupofacul h3{
+    color: #f38063;
+    font-size: 1.1em;
+}
+
+.titleblock{
+    width: 100%;
+    display: block;
+}
+
+.tchau{
+    display: none;
+}
+
+/*fim flexbox página GIT*/
+/*início flexbox página Instalação*/
+
+#main_install{
+    display: flex;
+    flex-flow: row nowrap;
+    align-self: center;
+    margin-left: -2%;
+}
+#Linux{
+    padding-left: 20px;
+    width: 50%;
+}
+#Linux.titleblock{
+    text-align: center;
+}
+#conteudo{
+    margin-left: -6%;
+}
+#Linux p{
+    text-align: left;
+    margin-left: 5.5%;
+}
+#Windows{
+    margin-top: -2.2%;
+    flex-direction: column;
+    margin-right: -5.9%;
+    width: 50%;
+}
+#Windows img{
+    margin-left: -9%;
+}
+#Windows img{
+    margin-top: 10px;
+    border: 3px solid;
+}
+
+/*Fim Flexbox pagina instalação*/
+/*Inicio Flexbox pagina comandos*/
+
+.comandos {
+    display: block;
+    align-items: flex-end;
+    width: 20%;
+    font-size: 0.8em;
+    margin-top: 2%;
+    padding: 20px;
+    margin-left: 10px;
+    background-color: #313638;
+    color: #f9f4f5;
+}
+
+.comandos .referencias li a{
+    color: #f9f4f5;
+}
+
+.comandos .referencias{
+    padding: 0px;
+}
+
+.men {
+    display: flex;
+}
+
+.tudodofundo {
+    display: flex;
+}
+
+.arte {
+    width: 72%;
+}
+
+.pull {
+    padding-right: 25px;
+}
+
+/*Fim Flexbox pagina comandos*/
+
+/*Inicio página plataforma*/
+
+.plataforma{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+.plataforma .wid50{
+    width: 49%;
+    box-sizing: border-box;
+}
+
+.plataforma hr{
+    flex-basis: 2px;
+}
+
+.plataforma figure{
+    margin: auto;
+}
+
+.border-box{
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.display-flex{
+    display: flex;
+}
+
+.plataforma img{
+    border: 0;
+}
+
+figure.fundo-azul{
+    width: 100%;
+    background-color: #050D22;
+    padding: 0;
+}
+
+figure.fundo-azul img{
+    display: block;
+    margin: auto;
+    padding: 0;
+
+}
